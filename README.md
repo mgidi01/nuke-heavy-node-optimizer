@@ -1,3 +1,4 @@
+````markdown
 # Nuke Optimizer
 
 A small Nuke helper to quickly disable/enable “heavy” nodes (Kronos, OFlow2, Denoise2, etc.) across the current script, plus a UI to manage which node classes are considered heavy.
@@ -211,3 +212,13 @@ Nuke-facing services and persistence helpers log warnings/info when something go
 * **Safety**
 
   * The code uses defensive error handling around Nuke and file I/O so that the UI continues to work even when scripts or environments are imperfect.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+Copyright (c) 2025 Mauricio Gidi
+
+See the [LICENSE](LICENSE) file for the full license text.
